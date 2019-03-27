@@ -1,0 +1,8 @@
+27 Mar 2019 08:12:33  INFO logger - ClassName :com.selendriod.demo.testcases.TestClass
+27 Mar 2019 08:12:33  INFO logger - MethodName :startSelendroid
+27 Mar 2019 08:12:33  INFO logger - Exception :Unable to start Selendroid server
+27 Mar 2019 08:12:33  INFO logger - -----------------------------------------------------------------------------------
+27 Mar 2019 08:14:03  INFO logger - ClassName :com.selendriod.demo.testcases.TestClass
+27 Mar 2019 08:14:03  INFO logger - MethodName :startSelendroid
+27 Mar 2019 08:14:03  INFO logger - Exception :Unable to start Selendroid server
+27 Mar 2019 08:14:03  INFO logger - -----------------------------------------------------------------------------------

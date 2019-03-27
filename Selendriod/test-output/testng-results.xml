@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="143" started-at="2019-03-27T02:58:02Z" finished-at="2019-03-27T02:58:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="143" started-at="2019-03-27T02:58:02Z" finished-at="2019-03-27T02:58:02Z">
+      <class name="com.selendriod.demo.testcases.TestClass">
+        <test-method status="FAIL" signature="invokeServer()[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="invokeServer" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:01Z" finished-at="2019-03-27T08:28:01Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.apache.commons.io.FileUtils.getUserDirectory()Ljava/io/File;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.apache.commons.io.FileUtils.getUserDirectory()Ljava/io/File;
+	at io.selendroid.standalone.builder.SelendroidServerBuilder.androidDebugKeystore(SelendroidServerBuilder.java:306)
+	at io.selendroid.standalone.builder.SelendroidServerBuilder.signTestServer(SelendroidServerBuilder.java:250)
+	at io.selendroid.standalone.builder.SelendroidServerBuilder.resignApp(SelendroidServerBuilder.java:154)
+	at io.selendroid.standalone.server.model.SelendroidStandaloneDriver.addToAppsStore(SelendroidStandaloneDriver.java:121)
+	at io.selendroid.standalone.server.model.SelendroidStandaloneDriver.initApplicationsUnderTest(SelendroidStandaloneDriver.java:155)
+	at io.selendroid.standalone.server.model.SelendroidStandaloneDriver.<init>(SelendroidStandaloneDriver.java:94)
+	at io.selendroid.standalone.server.SelendroidStandaloneServer.initializeSelendroidServer(SelendroidStandaloneServer.java:63)
+	at io.selendroid.standalone.server.SelendroidStandaloneServer.<init>(SelendroidStandaloneServer.java:52)
+	at io.selendroid.standalone.SelendroidLauncher.launchServer(SelendroidLauncher.java:65)
+	at io.selendroid.standalone.SelendroidLauncher.launchSelendroid(SelendroidLauncher.java:90)
+	at com.selendriod.demo.driver_setup.CreateSession.startSelendriodServer(CreateSession.java:100)
+	at com.selendriod.demo.driver_setup.CreateSession.invokeServer(CreateSession.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeServer -->
+        <test-method status="SKIP" signature="createDriver(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="createDriver" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="SKIP" signature="AddEmployee()[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="AddEmployee" duration-ms="33" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="teardown" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="createDriver(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="createDriver" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="SKIP" signature="CreatePackage()[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="CreatePackage" duration-ms="2" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePackage -->
+        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="teardown" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="createDriver(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="createDriver" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="SKIP" signature="EmployerRegister()[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="EmployerRegister" duration-ms="2" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployerRegister -->
+        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="teardown" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="createDriver(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="createDriver" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="SKIP" signature="PlanSelectionOnEmployer()[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="PlanSelectionOnEmployer" duration-ms="2" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlanSelectionOnEmployer -->
+        <test-method status="SKIP" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="teardown" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="stopAppium()[pri:0, instance:com.selendriod.demo.testcases.TestClass@59f99ea]" name="stopAppium" is-config="true" duration-ms="0" started-at="2019-03-27T08:28:02Z" finished-at="2019-03-27T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppium -->
+      </class> <!-- com.selendriod.demo.testcases.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
