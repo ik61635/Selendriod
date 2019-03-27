@@ -21,7 +21,7 @@ public class TestClass extends CreateSession {
 	
 
 	@Test
-	public void EmployerRegister() throws Exception {
+	public void TestDisplayTextViewFunctionality() throws Exception {
 		Home HomePageObj = new Home(event, driver);
 		HomePageObj.verifyDisplayTextView("Text is sometimes displayed");
 		Reporter.log("Test Case Passed");
@@ -29,7 +29,7 @@ public class TestClass extends CreateSession {
 	}
 
 	@Test
-	public void AddEmployee() throws Exception {
+	public void TestDisplayAndFocusLayoutFunctionality() throws Exception {
 
 		Home HomePageObj = new Home(event, driver);
 		HomePageObj.verifyDisplayTextView("Should only be found once");
@@ -39,7 +39,7 @@ public class TestClass extends CreateSession {
 	}
 
 	@Test
-	public void CreatePackage() throws Exception {
+	public void TestWebViewFunctionality() throws Exception {
 
 		Web WebPageObj = new Web(event, driver);
 		WebPageObj.verifyFormSubmission("John Henry");
@@ -48,7 +48,7 @@ public class TestClass extends CreateSession {
 	}
 
 	@Test
-	public void PlanSelectionOnEmployer() throws Exception {
+	public void TestRegistrationFunctionality() throws Exception {
 		Registration RegistrationPageObj = new Registration(event, driver);
 		RegistrationPageObj.verifyRegistration();
 		Reporter.log("Test Case Passed");
