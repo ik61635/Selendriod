@@ -10,6 +10,12 @@ to start avd and selendriod server.
 'Log Class' for logging is used
 'Utils folder' having all the common utility methods
 'property file and excel file' is used located inside 'Resources' it is used to drive test cases
+ Activities
+ It has 4 test Cases
+• TestCase 1 TestDisplayTextViewFunctionality to check text is display on home page
+• TestCase 2 TestDisplayAndFocusLayoutFunctionality to check Display And FocusLayout Functionality on home page
+• TestCase 3 TestWebViewFunctionality to check WebView Functionality is working 
+• TestCase 4 TestRegistrationFunctionality to check Registration Functionality is working 
 ```
 
 
