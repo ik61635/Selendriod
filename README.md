@@ -2,7 +2,7 @@
 ```
 Example project using 'Selendriod' with 'TestNG' and Page Objects, project have logging capaiblities and ability
 to start avd and selendriod server.
-_ObjectRepository folder_ where all the object of app located
+'ObjectRepository folder' where all the object of app located
 'Pages folder' where all the methods related to page placed
 'MobileEvent is class' which is wrapper to start app and has method releated to app interactions
 'CreateSession is class' to start Selendriod and avd
